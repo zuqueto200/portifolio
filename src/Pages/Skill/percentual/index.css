@@ -1,0 +1,30 @@
+.contentPercentual {
+  width: 86px;
+  height: 86px;
+  border-radius: 50%;
+
+  transition: background-image 3s;
+}
+
+.contentPercentualInterno {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #3b3b3b;
+ 
+}
+.contentPercentualInterno p {
+  position: absolute;
+  display: inline-block;
+  margin: 0;
+  padding: 5px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}

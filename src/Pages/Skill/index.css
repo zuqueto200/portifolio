@@ -1,0 +1,53 @@
+.divSkillCenter {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.divTituloSkill {
+  
+  
+  width: 1000px;
+}
+.divSkill {
+  display: flex;
+}
+
+.skillTitulo {
+  text-align: left;
+  font-family: "Archivo Black", sans-serif;
+  color: gray;
+  font-size: 50px;
+}
+
+ .contentCardsSkill{
+   display: flex;
+   flex-wrap: wrap;
+ }
+
+
+
+ 
+.cardSkill {
+  
+  font-size: 100px;
+  background-color: #3b3b3b;
+  
+  width: 200px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+.cardSkill:hover {
+border: solid 1px rgb(148, 148, 148);
+}
+.cardSkill p {
+  color: aliceblue;
+  font-family: cursive;
+  font-size: 20px;
+}

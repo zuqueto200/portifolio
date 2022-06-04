@@ -1,0 +1,27 @@
+.divCenterImgReact {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  height: 800px;
+}
+
+.divImgReact {
+  width: 360px;
+  height: 700px;
+  position: absolute;
+  overflow: hidden; 
+  z-index: -1;
+}
+.imgReact {
+  position: relative;
+  top: 46px;
+  left: -350px;
+  opacity: 0.1;
+  width: 700px;
+  animation: turnReact 100s infinite linear;
+}
+@keyframes turnReact {
+  100% {
+    transform: rotate(360deg);
+  }
+}

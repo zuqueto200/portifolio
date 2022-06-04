@@ -1,0 +1,45 @@
+.containerProjetos {
+  display: flex;
+  justify-content: center;
+}
+.contentProjetos {
+  width: 1000px;
+}
+
+.contentProjetosTitulo p {
+  text-align: left;
+  font-family: "Archivo Black", sans-serif;
+  color: gray;
+  font-size: 50px;
+}
+.containerProjetosCard {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cardProjetos {
+  background-color: #3b3b3b;
+  width: 200px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgb(0, 0, 0);
+ }
+.cardProjetos:hover {
+  border: solid 1px rgb(148, 148, 148);
+  
+}
+.cardProjetos p {
+  color: aliceblue;
+  font-family: cursive;
+  font-size: 20px;
+  text-align: center; 
+}
+.cardProjetos img {
+  width: 100px;
+  margin: 20px;
+}

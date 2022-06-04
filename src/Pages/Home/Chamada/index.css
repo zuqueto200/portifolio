@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
+.divName {
+    font-size:  50px;
+    display: block;
+    font-family: "Archivo Black", sans-serif;
+    color: gray;
+    text-shadow: 0 0 1px rgb(0, 0, 0);
+    
+  }
+  
+.spanStart{
+    visibility:hidden;
+}
+
+  .spanOla,
+  .spanSou,
+  .spanDev {
+    text-align: center;
+    min-width: 20px;
+    overflow: hidden;
+  }
+  span {
+    display: inline-block;
+  }
+  /* .spanOla:hover,
+  .spanSou:hover,
+  .spanDev:hover {
+       ''
+  } */
+  .tonhoin {
+    animation: tonhoin 1000ms ease-in-out;
+  }
+  
+  @keyframes tonhoin {
+    0% {
+      color: #00ccff;
+    }
+  
+    20% {
+      transform: scaleX(1.6) scaleY(0.6);
+    }
+    40% {
+      transform: scaleX(0.6) scaleY(1.6);
+    }
+  
+    60% {
+      transform: scaleX(1.4) scaleY(0.8);
+    }
+    80% {
+      transform: scaleX(0.8) scaleY(1.4);
+    }
+    100% {
+      transform: scaleX(1) scaleY(1);
+    }
+  }
+  

@@ -1,0 +1,50 @@
+.divContato {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 30px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 7px;
+  cursor: pointer; 
+}
+.divContato::before {
+    background-image: conic-gradient(rgb(36,36,36),rgb(36,36,36),rgb(36,36,36),rgb(36,36,36), #61DBFB);
+    content: "";
+    width: 150px;
+    height: 150px;
+    position: absolute; 
+    animation: rotate 3s infinite linear ;
+}
+.divContato::after {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 116px;
+    height: 26px;
+    content: "Contate - me";
+    font-size: 15px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #61DBFB;
+    position: absolute;
+    border-radius: 5px;
+    background-color: rgb(36, 36, 36);
+}
+.divContato:hover::after{
+    border: solid #61DBFB;
+    border-radius: 7px;
+}
+.divContato:active::after{
+    border: solid #61DBFB;
+    border-radius: 7px;background-color: #28515c;
+}
+
+@keyframes rotate {
+  
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+ 
